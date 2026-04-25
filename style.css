@@ -1,0 +1,99 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-style:normal;
+}
+/* 2. Body (background + santre kontni an) */
+body {
+  background-color:white;
+  display: flex;
+  justify-content: center;
+  align-items:center ;
+  height: 100vh;
+}
+
+/* 3. Section (bwate prensipal la) */
+section {
+  background: white;
+  padding: 30px;
+  width: 345px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+/* 4. Tit yo */
+h1 {
+  color: #4285f4;
+  text-align: left;
+  margin-bottom: -8px;
+  font-size: 15px;
+}
+
+h2 {
+  text-align: left;
+  margin-bottom: -10px;
+   font-size: 20px;
+}
+
+/* 5. Paragraf */
+p {
+  font-size: 15px;
+  margin-bottom: 5px;
+  color: #706767;
+}
+
+/* 6. Lyen yo */
+a {
+  font-size: 13px;
+  color: #1a73e8;
+  text-decoration: none;
+  margin: 6px 0;
+  
+}
+
+a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+ 
+}
+
+
+/* 7. Input */
+.input-box input {
+  width: 100%;
+  padding: 10px;
+  margin: 6px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* 8. Bouton */
+input[type="submit"] {
+  width: 28%;
+  padding: 10px;
+  background: #1a73e8;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 100px;
+  position: relative;
+  right: -200px;
+  
+   }
+
+input[type="submit"]:hover {
+  background: rgba(255, 255, 255, 0.2);
+  color:blue;
+  border:solid 1.5px #706767;
+  font-style: bold;
+
+}
+.nouveau-compte{
+    margin-top: 25px;
+    align-items:center;
+    text-align: left;
+}
